@@ -1,0 +1,87 @@
+Wed May 18 14:56:54 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 470.103.01   Driver Version: 470.103.01   CUDA Version: 11.4     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA GeForce ...  Off  | 00000000:1A:00.0 Off |                  N/A |
+| 60%   62C    P2   231W / 350W |  15648MiB / 24268MiB |     46%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  NVIDIA GeForce ...  Off  | 00000000:1B:00.0 Off |                  N/A |
+| 82%   72C    P2   272W / 350W |  21878MiB / 24268MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  NVIDIA GeForce ...  Off  | 00000000:1C:00.0 Off |                  N/A |
+| 78%   71C    P2   285W / 350W |  21148MiB / 24268MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  NVIDIA GeForce ...  Off  | 00000000:1D:00.0 Off |                  N/A |
+| 73%   70C    P2   237W / 350W |  23364MiB / 24268MiB |     40%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  NVIDIA GeForce ...  Off  | 00000000:1E:00.0 Off |                  N/A |
+| 41%   48C    P8    33W / 350W |     13MiB / 24268MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   5  NVIDIA GeForce ...  Off  | 00000000:3D:00.0 Off |                  N/A |
+| 52%   56C    P2   162W / 350W |  10832MiB / 24268MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   6  NVIDIA GeForce ...  Off  | 00000000:3E:00.0 Off |                  N/A |
+| 61%   61C    P2   135W / 350W |  21183MiB / 24268MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   7  NVIDIA GeForce ...  Off  | 00000000:3F:00.0 Off |                  N/A |
+| 70%   68C    P2   258W / 350W |  17787MiB / 24268MiB |     67%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   8  NVIDIA GeForce ...  Off  | 00000000:40:00.0 Off |                  N/A |
+| 54%   57C    P2   113W / 350W |   2332MiB / 24268MiB |      8%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   9  NVIDIA GeForce ...  Off  | 00000000:41:00.0 Off |                  N/A |
+| 78%   72C    P2   259W / 350W |  23521MiB / 24268MiB |     83%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A     14284      G   /usr/lib/xorg/Xorg                  4MiB |
+|    0   N/A  N/A     33664      C   /usr/bin/python                 15635MiB |
+|    0   N/A  N/A     49333      G   /usr/lib/xorg/Xorg                  4MiB |
+|    1   N/A  N/A     14284      G   /usr/lib/xorg/Xorg                  4MiB |
+|    1   N/A  N/A     49333      G   /usr/lib/xorg/Xorg                  4MiB |
+|    1   N/A  N/A     64442      C   ...onda3/envs/d2l/bin/python    21865MiB |
+|    2   N/A  N/A     14284      G   /usr/lib/xorg/Xorg                  4MiB |
+|    2   N/A  N/A     49333      G   /usr/lib/xorg/Xorg                  4MiB |
+|    2   N/A  N/A     64443      C   ...onda3/envs/d2l/bin/python    21135MiB |
+|    3   N/A  N/A     14284      G   /usr/lib/xorg/Xorg                  4MiB |
+|    3   N/A  N/A     39988      C   /usr/bin/python                 23351MiB |
+|    3   N/A  N/A     49333      G   /usr/lib/xorg/Xorg                  4MiB |
+|    4   N/A  N/A     14284      G   /usr/lib/xorg/Xorg                  4MiB |
+|    4   N/A  N/A     49333      G   /usr/lib/xorg/Xorg                  4MiB |
+|    5   N/A  N/A     14284      G   /usr/lib/xorg/Xorg                  4MiB |
+|    5   N/A  N/A     49333      G   /usr/lib/xorg/Xorg                  4MiB |
+|    5   N/A  N/A     62254      C   ...nvs/detectron2/bin/python    10819MiB |
+|    6   N/A  N/A      6725      C   python                          10587MiB |
+|    6   N/A  N/A     14284      G   /usr/lib/xorg/Xorg                  4MiB |
+|    6   N/A  N/A     17441      C   python                          10581MiB |
+|    6   N/A  N/A     49333      G   /usr/lib/xorg/Xorg                  4MiB |
+|    7   N/A  N/A     14284      G   /usr/lib/xorg/Xorg                  4MiB |
+|    7   N/A  N/A     15496      C   python                           4851MiB |
+|    7   N/A  N/A     36239      C   ...nvs/detectron2/bin/python    12923MiB |
+|    7   N/A  N/A     49333      G   /usr/lib/xorg/Xorg                  4MiB |
+|    8   N/A  N/A     14284      G   /usr/lib/xorg/Xorg                  4MiB |
+|    8   N/A  N/A     49333      G   /usr/lib/xorg/Xorg                  4MiB |
+|    8   N/A  N/A     57949      C   python                           2319MiB |
+|    9   N/A  N/A     14284      G   /usr/lib/xorg/Xorg                  4MiB |
+|    9   N/A  N/A     36240      C   ...nvs/detectron2/bin/python    12923MiB |
+|    9   N/A  N/A     49333      G   /usr/lib/xorg/Xorg                  4MiB |
+|    9   N/A  N/A     61958      C   python                          10583MiB |
++-----------------------------------------------------------------------------+
