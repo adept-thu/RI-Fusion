@@ -46,13 +46,6 @@ pip3 install -e .
 ```
 具体参考MMdetection3D网址
 
-## 核心文件简介
-用tree命令生成目录树结构，并在核心文件后标注一下文件用途，便于后续工作的修改。
-```
-tree -L n 显示项目的层级。n表示层级数。比如想要显示项目三层结构，可以用tree -l 3；
-tree -I pattern 用于过滤不想要显示的文件或者文件夹。比如你想要过滤项目中的node_modules文件夹，可以使用tree -I "node_modules"；
-tree > tree.md 将项目结构输出到tree.md这个文件。
-```
 
 ```
 账户下没有安装 tree
